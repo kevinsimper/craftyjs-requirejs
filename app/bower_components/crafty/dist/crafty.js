@@ -6355,16 +6355,7 @@ Crafty.bind("Load", function () {
 });
 
 
-// export Crafty
-if (typeof define === 'function') { // AMD
-    define('crafty', [], function () {
-        return Crafty;
-    });
-}
-
 module.exports = Crafty;
-
-
 window.Crafty = Crafty;
 
 
